@@ -7,13 +7,13 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      - "{{ lookup('file', '~/.ssh/aws/MacBookPro.pem') }}"
+      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       - https://github.com/pelachile.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-      - "{{ lookup('file', '~/.ssh/aws/MacBookPro.pem.pub') }}"
+      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       - https://github.com/pelachile.keys
 
 web_user: web
