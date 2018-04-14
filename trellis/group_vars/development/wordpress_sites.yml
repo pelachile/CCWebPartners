@@ -3,11 +3,11 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  ccwebpartners.com:
+  corpuschristidesign.net:
     site_hosts:
-      - canonical: ccwebpartners.test
+      - canonical: corpuschristidesign.test
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: pelachile@mac.com
+    admin_email: cory@corymoore.com
     multisite:
       enabled: false
     ssl:
