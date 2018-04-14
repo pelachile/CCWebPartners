@@ -7,7 +7,7 @@ wordpress_sites:
     site_hosts:
       - canonical: ccwebpartners.test
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: cory@corymoore.com
+    admin_email: pelachile@mac.com
     multisite:
       enabled: false
     ssl:
