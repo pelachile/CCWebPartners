@@ -5,9 +5,7 @@
 wordpress_sites:
   ccwebpartners.com:
     site_hosts:
-      - canonical: ccwebpartners.com
-        redirects:
-          - www.ccwebpartners.com
+      - canonical: ec2-34-205-24-56.compute-1.amazonaws.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:pelachile/ccwebpartners.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
