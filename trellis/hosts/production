@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-ec2-34-205-24-56.compute-1.amazonaws.com
+34.205.24.56
 
 [web]
-ec2-34-205-24-56.compute-1.amazonaws.com
+34.205.24.56
